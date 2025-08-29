@@ -2,3 +2,6 @@
 My Arch Linux Hyprland Dotfiles
 
 That are my Dotfiles i make this in 2 Days.
+
+please create the Folder:
+~/Bilder/wp/
