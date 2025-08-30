@@ -8,7 +8,7 @@
 
 window#waybar {
   background-color: #181825;
-    background: rgba(30, 30, 46, 0.7);   
+    background: rgba(30, 30, 46, 0.7);    
   transition-property: background-color;
   transition-duration: 0.5s;
 }
@@ -58,7 +58,8 @@ window#waybar.hidden {
 #wireplumber,
 #network,
 #clock,
-#tray {
+#tray
+#mpris {
   border-radius: 4px;
   margin: 6px 3px;
   padding: 6px 12px;
@@ -126,6 +127,15 @@ window#waybar.hidden {
 
 #custom-power {
   background-color: #f2cdcd;
+}
+
+#custom-mpris-prev,
+#custom-mpris-playpause,
+#custom-mpris-next,
+#custom-mpris-stop {
+    font-size: 18px;        /* Größe der Icons */
+    padding: 0 6px;         /* Abstand links/rechts */
+    margin: 0 2px;          /* kleiner Außenabstand */
 }
 
 
