@@ -14,6 +14,10 @@
         "clock"
     ],
     "modules-right": [
+        "custom/mpris-prev",
+        "custom/mpris-playpause",
+        "custom/mpris-next",
+        "mpris",
         "tray",
         "memory",
         "network",
@@ -158,5 +162,33 @@
         "format": "󰤆",
         "tooltip": false,
         "on-click": "wlogout &"
-    }
+    },
+
+"custom/mpris-prev": {
+  "format": "",
+  "on-click": "playerctl previous"
+},
+"custom/mpris-playpause": {
+  "format": "",
+  "on-click": "playerctl play-pause"
+},
+"custom/mpris-next": {
+  "format": "",
+  "on-click": "playerctl next"
+},
+"mpris": {
+  "format": " ",
+  "format-paused": "",
+  "format-stopped": "",
+  "player-icons": {
+    "default": "",
+    "spotify": "",
+    "vlc": "󰕼",
+    "firefox": ""
+  },
+
+"clock": {
+  "format": "{:%H:%M}"
+},
+},
 }
